@@ -257,8 +257,8 @@ footer a:link {
     text-shadow: 2px 2px 2px black;
 }
 
-/* Responsive for Tablets, Smartphones */
-@media only screen and (max-device-width: 930px) {
+/* Responsive for Smartphones */
+@media only screen and (max-device-width: 400px) {
 
     body {
         font-family: Tahoma, Verdana, Arial, sans-serif;
