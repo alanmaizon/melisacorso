@@ -1,0 +1,297 @@
+/* Author: Alan Maizon */
+/* Date: 17-05-2024 */
+/* Subject: Artist Website for Melisa Corso */
+
+body{
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configure viewport to show the images to slide between sections*/
+.hero {
+    background-image: url(hero.jpg);
+    width: auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.serviceshero {
+    background-image: url(services.jpg);
+    width: auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abouthero {
+    background-image: url(about.jpg);
+    width: auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacthero {
+    background-image: url(contact.jpg);
+    width: auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Consistent main navigation panel on the top, always visible */
+nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: .5em 0;
+    background: rgb(25,25,25,0.90);
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display:inline-block;
+    position: relative;
+}
+
+nav a {
+    display:block;
+    text-decoration:none;
+    padding: 10px 10px;
+    text-shadow: 2px 2px 1px black;
+}
+
+nav a:link {
+    color: #fff;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #888;
+}
+
+/* Consistent banner logo area centered 35% down the nav bar */
+.space {
+    height: 35vh;
+}
+
+h1 {
+    height: 100px;
+    padding-top: 2em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.90);
+}
+
+/* Bonus feature: Youtube Video */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#services,#about,#contact {
+    background-image:linear-gradient(white,lightgrey);
+    width: auto;
+    padding:10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+/* Style Contact Form */
+label {
+    font-weight: bold;
+    color: #000;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+button[type=submit] {
+    background-color: #fff;
+    color: #000;
+    padding: 18px 20px;
+    border-radius: 8px;
+    width: 95%;
+    font-size: large;
+    margin:10px 0;
+    text-align: center;
+}
+
+button[type=submit]:hover {
+    background-color: #666;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Same row for First and Last Name */
+.row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+  
+.col25{
+    width: 100%;
+}
+
+.col25 input[type=text] {
+  text-align: left;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+    text-align: left;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+textarea {
+  text-align: left;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+/* Style tables without separation lines */
+table {
+	border: 1px solid #666;
+    padding: 8px;
+	border-radius: 8px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tr, td {
+    padding: 5px;
+}
+
+/* Flags responsive grid template */
+
+.flags {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
+	gap: 1em;
+	justify-content: center;
+}
+
+.item img {
+    width: 80px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.item p{
+    font-style: italic;
+}
+
+/* Consistent footer with social icons always visible */
+footer {
+    background: rgba(25, 25, 25, 0.90);
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+    color: #EAEAEA;
+    padding: .5em;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #EAEAEA;
+    margin: .5em;
+}
+
+footer a:link {
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Responsive for Tablets, Smartphones */
+@media only screen and (max-device-width: 930px) {
+
+    body {
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        font-size: 120%;
+    } 
+    .hero, .serviceshero, .abouthero, .contacthero {
+        background-attachment:fixed;
+        width: 100%;
+    }
+
+    #services,#about,#contact {
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+        place-self: center;
+        padding: 10%;
+    }
+
+    .center {
+        text-align: center;
+        place-self: center;
+    }
+
+    form {
+        padding-left: 5%;
+    }
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
+    
+    .flags {
+        gap: 0.3em;
+    }
+}
