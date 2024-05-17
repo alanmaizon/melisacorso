@@ -147,6 +147,7 @@ button[type=submit] {
     background-color: #fff;
     color: #000;
     padding: 18px 20px;
+    border-style: solid;
     border-radius: 8px;
     width: 95%;
     font-size: large;
@@ -263,18 +264,17 @@ footer a:link {
         font-family: Tahoma, Verdana, Arial, sans-serif;
         font-size: 120%;
     } 
-
-    .space {
+    .space{
         display: none;
     }
-        
-    .hero, .serviceshero, .abouthero, .contacthero {
-        width: auto;
+    .hero {
+        background-image: url(hero.jpg);
+        background-size: 100%;
         min-height: 50vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto;
+    }
+        
+    .serviceshero, .abouthero, .contacthero {
+        display: none;
     }
 
     #services,#about,#contact {
