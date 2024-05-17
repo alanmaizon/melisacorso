@@ -265,7 +265,7 @@ footer a:link {
         font-size: 120%;
     } 
     .hero, .serviceshero, .abouthero, .contacthero {
-        background-size: cover;
+        background-image: url(mobile.jpg);
     }
 
     #services,#about,#contact {
