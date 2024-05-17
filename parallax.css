@@ -258,7 +258,7 @@ footer a:link {
 }
 
 /* Responsive for Smartphones */
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 600px) {
 
     body {
         font-family: Tahoma, Verdana, Arial, sans-serif;
