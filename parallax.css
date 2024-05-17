@@ -264,13 +264,10 @@ footer a:link {
         font-family: Tahoma, Verdana, Arial, sans-serif;
         font-size: 120%;
     } 
-    .space{
-        display: none;
-    }
+
     .hero {
-        background-image: url(hero.jpg);
-        background-size: 100%;
-        min-height: 50vh;
+        background-image: none;
+        min-height: 35vh;
     }
         
     .serviceshero, .abouthero, .contacthero {
