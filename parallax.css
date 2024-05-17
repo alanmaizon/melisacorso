@@ -116,11 +116,23 @@ h1 {
 }
 
 /* Bonus feature: Youtube Video */
-iframe {
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-}
-
+  }
 #services,#about,#contact {
     width: auto;
     padding:10%;
@@ -144,8 +156,8 @@ label {
 }
   
 button[type=submit] {
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     padding: 18px 20px;
     border-style: solid;
     border-radius: 8px;
@@ -258,16 +270,21 @@ footer a:link {
 }
 
 /* Responsive for Smartphones */
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 1200px) {
 
     body {
         font-family: Tahoma, Verdana, Arial, sans-serif;
         font-size: 120%;
-    } 
+    }
 
+    .space{
+        display: none;
+    }
     .hero {
+        width: auto;
+        padding-top: 25%;
         background-image: none;
-        min-height: 35vh;
+        min-height: 0vh;
     }
         
     .serviceshero, .abouthero, .contacthero {
@@ -290,13 +307,17 @@ footer a:link {
     form {
         padding-left: 5%;
     }
-
-    iframe {
-        width: auto;
-        height: auto;
-    }
     
     .flags {
         gap: 0.3em;
+    }
+
+    footer{
+        position: static;
+    }
+
+    button[type=submit] {
+        background-color: #000;
+        color: #FFF;
     }
 }
