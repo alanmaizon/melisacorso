@@ -50,12 +50,6 @@ body{
     background-size: cover;
 }
 
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 /* Consistent main navigation panel on the top, always visible */
 nav {
     z-index: 9999;
@@ -147,6 +141,12 @@ form {
     text-align: left;
 }
 
+ul{
+    list-style: square inside;
+    size: 20em;
+    padding: 0;
+}
+
 /* Style Contact Form */
 label {
     font-weight: bold;
@@ -184,12 +184,12 @@ button[type=submit]:hover {
 }
 
 .col25 input[type=text] {
-  text-align: left;
-  width: 90%;
-  padding: 12px;
-  border: 1px solid #000;
-  border-radius: 4px;
-  box-sizing: border-box;
+    text-align: left;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 input[type=text] {
@@ -202,14 +202,14 @@ input[type=text] {
   }
 
 textarea {
-  text-align: left;
-  font-family: Tahoma, Verdana, Arial, sans-serif;
-  width: 95%;
-  padding: 12px;
-  border: 1px solid #000;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: none;
+    text-align: left;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
 }
 
 /* Style tables without separation lines */
@@ -246,7 +246,7 @@ tr, td {
     font-style: italic;
 }
 
-/* Consistent footer with social icons always visible */
+/* Consistent footer with social icons, desktop always visible */
 footer {
     background: rgba(25, 25, 25, 0.90);
     width: 100%;
@@ -280,6 +280,12 @@ footer a:link {
     .space{
         display: none;
     }
+
+    ul{
+        list-style: none;
+        padding: 0 10%;
+    }
+
     .hero {
         width: auto;
         padding-top: 25%;
