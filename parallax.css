@@ -265,8 +265,9 @@ footer a:link {
         font-size: 120%;
     } 
     .hero, .serviceshero, .abouthero, .contacthero {
-        background-attachment:fixed;
-        width: 100%;
+        background-attachment: scroll;
+        width: auto;
+        height:auto;
     }
 
     #services,#about,#contact {
