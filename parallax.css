@@ -38,7 +38,7 @@ h1 {
 }
 
 /* Configure viewport to show the image to slide between sections*/
-.hero, .serviceshero, .abouthero, .contacthero {
+.hero {
     background-image: url(hero.jpg);
     background-size:220vh;
     background-attachment: fixed;
@@ -261,9 +261,9 @@ footer a:link {
     text-shadow: 2px 2px 2px black;
 }
 
-.hero, .serviceshero, .abouthero, .contacthero {
+.hero {
     background-image: url(hero.jpg);
-    background-size:220vh;
+    background-size:cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
