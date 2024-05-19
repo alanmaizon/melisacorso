@@ -1,0 +1,22 @@
+Author: Alan Maizon
+Date: 17-05-2024
+Subject: Artist Website for Melisa Corso
+
+Goal: A Single Page Website for Melisa Corso.
+
+I want to position Melisa in the internet like:
+
+Violin teacher
+Concert violinist
+Experienced performer 
+
+Services: List of services of Melisa as a professional musician.
+Show table with information of coming dates, link to tickets.
+
+About: Bio, her career in music, she offering different formats.
+Show any audiovisual material, Youtube channel video.
+
+Contact: Focus on online lessons, list of multilanguage options.
+Create contact form and share email.
+
+Footer: Icons for social media.
