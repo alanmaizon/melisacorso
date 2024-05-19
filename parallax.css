@@ -37,47 +37,16 @@ h1 {
     text-align: center;
 }
 
-/* Configure viewport to show the images to slide between sections*/
-.hero {
+/* Configure viewport to show the image to slide between sections*/
+.hero, .serviceshero, .abouthero, .contacthero {
     background-image: url(hero.jpg);
-    opacity: 100%;
-    width: auto;
-    min-height: 100vh;
+    background-size:220vh;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-}
-
-.serviceshero {
-    background-image: url(services.jpg);
+    background-repeat:no-repeat;
     width: auto;
+    padding-top: 25%;
     min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.abouthero {
-    background-image: url(about.jpg);
-    width: auto;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contacthero {
-    background-image: url(contact.jpg);
-    width: auto;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Consistent main navigation panel on the top, always visible */
@@ -307,16 +276,6 @@ footer a:link {
     ul{
         list-style: none;
         padding: 0 10%;
-    }
-
-    .hero, .serviceshero, .abouthero, .contacthero {
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat:repeat;
-        width: auto;
-        padding-top: 25%;
-        min-height: 100vh;
     }
 
     #logo {
