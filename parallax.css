@@ -309,10 +309,14 @@ footer a:link {
         padding: 0 10%;
     }
 
-    .hero, .serviceshero, .abouthero .contacthero {
+    .hero, .serviceshero, .abouthero, .contacthero {
+        background-image: url(hero.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat:repeat;
         width: auto;
         padding-top: 25%;
-        min-height: 0vh;
+        min-height: 100vh;
     }
 
     #logo {
@@ -350,6 +354,5 @@ footer a:link {
 
     table {
         width: 100%;
-
     }
 }
