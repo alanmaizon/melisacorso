@@ -12,7 +12,7 @@ body {
 /* Consistent banner and content areas centered down the nav bar */
 
 #home {
-    padding-top: 30vh;
+    padding: 0;
 }
 
 #services,#about,#contact {
@@ -48,16 +48,16 @@ h1 {
 }
 
 /* Configure viewport to show the image to slide between sections*/
+
 .hero {
     background-image: url(hero.jpg);
-    background-size:220vh;
+    background-size:cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
-    width: 6590px;
+    width: auto;
     padding-top: 25%;
     min-height: 100vh;
-    justify-content: center;
     text-align: center;
 }
 
@@ -107,26 +107,27 @@ a:hover {
     color: #888;
 }
 
-#logo {
+.logo {
     z-index: 9999;
     position: fixed;
-    left: 47px;
-
+    left: 9px;
 }
 
-#logo img {
+.logo img {
     z-index: 9999;
     height: 33px;
     top:9px;
-    left:9px;
+    right:9px;
     position: fixed;
+    padding: 0 10px;
 }
 
 /* Bonus feature: Youtube Video */
 .container {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
+    height: auto;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
   
@@ -250,16 +251,16 @@ tr, td {
     font-style: italic;
 }
 
-/* Consistent footer with social icons, desktop always visible */
-footer {
+/* Consistent footer with social icons, always visible */
+#footer {
     background: rgba(25, 25, 25, 0.90);
     width: 100%;
-    font-size: 100%;
+    font-size: 130%;
     text-align: center;
-    color: #EAEAEA;
-    padding: .5em;
     position: fixed;
+    color: #EAEAEA;
     bottom: 0;
+    padding: .5em 0;
 }
 
 footer a {
@@ -270,18 +271,7 @@ footer a {
 
 footer a:link {
     color: #fff;
-    text-shadow: 2px 2px 2px black;
-}
-
-.hero {
-    background-image: url(hero.jpg);
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    width: auto;
-    padding-top: 25%;
-    min-height: 100vh;
+    text-shadow: 2px 2px 10px black;
 }
 
 /* Responsive for Smartphones */
@@ -297,7 +287,7 @@ footer a:link {
         padding: 0 10%;
     }
 
-    #logo {
+    .logo {
         display: none;
     }
     #services,#about,#contact {
@@ -319,10 +309,6 @@ footer a:link {
     
     .flags {
         gap: 0.3em;
-    }
-
-    footer{
-        position: static;
     }
 
     table {
