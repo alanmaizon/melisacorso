@@ -47,6 +47,8 @@ h1 {
     width: auto;
     padding-top: 25%;
     min-height: 100vh;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Consistent main navigation panel on the top, always visible */
@@ -271,16 +273,13 @@ footer a:link {
     padding-top: 25%;
     min-height: 100vh;
 }
+
 /* Responsive for Smartphones */
 @media only screen and (max-device-width: 840px) {
 
     body {
         font-family: Tahoma, Verdana, Arial, sans-serif;
         font-size: 120%;
-    }
-
-    .space{
-        display: none;
     }
 
     ul{
@@ -324,4 +323,5 @@ footer a:link {
     table {
         width: 100%;
     }
+
 }
