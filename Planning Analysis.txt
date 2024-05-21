@@ -3,12 +3,19 @@ Date: 17-05-2024
 Subject: Artist Website for Melisa Corso
 
 Goal: A Single Page Website for Melisa Corso.
+Give focus, direction, and action to the proyect;
+Provide a clear and concise message to the customer.
 
-I want to position Melisa in the internet like:
+I want to position Melisa with an interactive website:
 
-Violin teacher
-Concert violinist
-Experienced performer 
+Main page: Logo Banner and Name.
+
+Show the identity of the customer 
+#1 Violin teacher
+#2 Concert violinist
+#3 Experienced performer 
+
+Secondary Pages:
 
 Services: List of services of Melisa as a professional musician.
 Show table with information of coming dates, link to tickets.
