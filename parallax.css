@@ -59,33 +59,25 @@ h4 {
 
 .hero-home {
     background-image: url(hero.jpg);
-    background-size: contain;
+    background-size:contain;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
-    width: auto;
+    height: 100%;
     min-height: 100vh;
     text-align: center;
 }
-.fixed-background-container img {
-    width: 100%; /* Or height: 100%; depending on image orientation */
-    object-fit: cover; /* Scales image to cover the container while maintaining aspect ratio */
-  }
 
 .hero {
     background-image: url(hero.jpg);
-    background-size: contain;
+    background-size:contain;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
-    width: auto;
+    height: 100%;
     min-height: 50vh;
     text-align: center;
 }
-.fixed-background-container img {
-    width: 100%; /* Or height: 100%; depending on image orientation */
-    object-fit: cover; /* Scales image to cover the container while maintaining aspect ratio */
-  }
 
 
 /* Consistent main navigation panel on the top, always visible */
