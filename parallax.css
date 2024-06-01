@@ -59,7 +59,7 @@ h4 {
 
 .hero-home {
     background-image: url(hero.jpg);
-    object-fit: scale-down;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
@@ -70,7 +70,7 @@ h4 {
 
 .hero {
     background-image: url(hero.jpg);
-    object-fit: scale-down;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
