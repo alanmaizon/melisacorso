@@ -40,15 +40,33 @@ small {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-shadow: 2px 1px 5px#000;
     color:#FFF;
     text-align: center;
-    margin-top:0;
-    margin-bottom: 10vh;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1rem;
+    text-shadow: 2px 1px 5px#000;
+    color:#FFF;
+    text-align: center;
+
 }
 
 /* Configure viewport to show the image to slide between sections*/
+
+.hero-home {
+    background-image: url(hero.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: auto;
+    min-height: 100vh;
+    text-align: center;
+}
 
 .hero {
     background-image: url(hero.jpg);
@@ -57,10 +75,10 @@ h1 {
     background-position: center;
     background-repeat:no-repeat;
     width: auto;
-    padding-top: 25%;
-    min-height: 100vh;
+    min-height: 50vh;
     text-align: center;
 }
+
 
 /* Consistent main navigation panel on the top, always visible */
 nav {
@@ -111,14 +129,14 @@ a:hover {
 .logo {
     z-index: 9999;
     position: fixed;
-    left: 9px;
+    right: 9px;
 }
 
 .logo img {
     z-index: 9999;
     height: 33px;
     top:9px;
-    right:9px;
+    left:9px;
     position: fixed;
     padding: 0 10px;
 }
@@ -282,7 +300,7 @@ footer a:link {
 
 /* Responsive for Smartphones and other devices*/
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 500px) {
 
     body {
         font-family: Tahoma, Verdana, Arial, sans-serif;
@@ -294,6 +312,11 @@ footer a:link {
         padding: 0 10%;
     }
 
+    img {
+        width: 30%;
+        height: auto;
+      }
+
     .logo {
         display: none;
     }
@@ -304,7 +327,7 @@ footer a:link {
         place-self: center;
         padding: 10%;
     }
-
+    
     .center {
         text-align: center;
         place-self: center;
