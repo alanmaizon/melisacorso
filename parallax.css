@@ -67,8 +67,8 @@ h4 {
     min-height: 100vh;
     text-align: center;
 }
-.hero-home img {
-    height: 100%; /* Or height: 100%; depending on image orientation */
+.fixed-background-container img {
+    width: 100%; /* Or height: 100%; depending on image orientation */
     object-fit: cover; /* Scales image to cover the container while maintaining aspect ratio */
   }
 
@@ -82,10 +82,11 @@ h4 {
     min-height: 50vh;
     text-align: center;
 }
-.hero img {
-    height: 100%; /* Or height: 100%; depending on image orientation */
+.fixed-background-container img {
+    width: 100%; /* Or height: 100%; depending on image orientation */
     object-fit: cover; /* Scales image to cover the container while maintaining aspect ratio */
   }
+
 
 /* Consistent main navigation panel on the top, always visible */
 nav {
