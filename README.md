@@ -9,5 +9,6 @@ Resources used for this proyect:
   -https://developer.mozilla.org/
   -https://www.w3schools.com/
   -https://stackoverflow.com/
+  -https://validator.w3.org/
 
 UDC PA Module 1 - Web Development
