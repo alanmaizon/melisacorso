@@ -57,7 +57,7 @@ h4 {
 
 /* Configure viewport to show the image to slide between sections*/
 
-.hero-home {
+.hero-large {
     background-image: url(hero.jpg);
     background-size:cover;
     background-attachment: fixed;
@@ -68,7 +68,7 @@ h4 {
     text-align: center;
 }
 
-.hero {
+.hero-space {
     background-image: url(hero.jpg);
     background-size:cover;
     background-attachment: fixed;
