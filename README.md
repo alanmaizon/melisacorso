@@ -9,7 +9,7 @@ Includes the following features:
 - Contact forms, social media links
 - Responsive in all browsers
 
-Resources used for this proyect:
+Resources used for this project:
 - https://icomoon.io/
 - https://www.meta.ai/
 - https://www.falconmasters.com/
